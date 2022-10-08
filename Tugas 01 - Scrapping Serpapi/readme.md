@@ -14,8 +14,8 @@
 
 ## :pick: Tahapan Scrapping
 > Output: 750 data review.
-1. Scrapping **5** data hotel menggunakan **_Google Maps Local Results API_**
-2. Scrapping **150** data review dari tiap hotel manggunakan **_Google Maps Reviews API_**
+1. Scrapping **5** data restoran menggunakan **_Google Maps Local Results API_**
+2. Scrapping **150** data review dari tiap restoran manggunakan **_Google Maps Reviews API_**
 3. Export data sebelum dilakukan preprocessing ke file _**CSV/review_tanpa_preprocessing.csv**_
 
 <br>

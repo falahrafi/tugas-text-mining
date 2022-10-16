@@ -32,8 +32,8 @@ Pada tugas ini, proses scrapping data dari twitter akan menggunakan bantuan sala
 
 ## :gear: Preprocessing
 1. Case Folding
-2. Stemming (Sastrawi)
-3. Filtering (Stopword Removal - Sastrawi)
+2. Stemming (PorterStemmer)
+3. Filtering (Stopword Removal)
 
 <br>
 

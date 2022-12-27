@@ -13,6 +13,9 @@
 <br>
 
 ## :speech_balloon: Visualisasi Alur Chatbot
-<img src="./chatbot_stunting/images/graph.png" alt="Visualisasi Alur" style="width:400px;"/>
+<img src="./chatbot_stunting/images/graph.png" alt="Visualisasi Alur" style="width:100%;"/>
 
 <br>
+
+## :large_blue_circle: Integrasi Dengan Telegram
+<img src="./chatbot_stunting/images/integrasi-telegram.jpg" alt="Integrasi Telegram" style="width:400px;"/>

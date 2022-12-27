@@ -1,0 +1,18 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLEgsbY2FgDOZxsT": "utter_sapa",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLEgsZaAEaUlJalF8WCVOPTHAgCgeTNB": "action_listen",
+    "eJydjkEKgDAMBL/SB/iCfkUkpBokqGlpUi+lf7eod8HbDswuO9Y2uJoynYCzcRTv6hNA8CDvXthZjaS7RSl3h6WjeaeYsH1MFDPKcJu/+h8XUDdQK2IsKwRWhIVjQOPWpgsMkFVR": "utter_stunting_tidak_diobati",
+    "eJydjkEOgzAMBL+SB/CCfAVVlgGrsgCD4k0vEX8nopQrbW9eaWa9bdmaUNYkL+IeulgM5X2Q8SwxnGFSh1hls0uqjFqNiMF55e2mIgOS6CD/8m8msI/kyAa1J3XqTIMuHUO/3PVRoQOPl/vLm8cOd+N9qw==": "utter_tawarkan_info_cegah",
+    "eJytjksOwjAMRK+SA3CCXAUha9qaYgWcKnZgEfXuVOWzLSB2Huk9z+zbvAttKnwl9C5ZY2iPgxQXjuEZzmLOurDVuCyM6BI9BsOEeeNFdedCK/mTvzEBlsi8qouO1ImBBskdXD7c9VJdBqS3++8axw0lQUn0mKnnEaevOg53IkqknQ==": "action_listen",
+    "eJytkF0OwjAMg6/SA3CCXgWhyNvCiMrSqU3hodrdqfh7LUJ7iyU7/uRj3Q6urolvhNEkqnf1dZBiYe/e4irZWJu3ZE7NI9qkeZexYuu8KGac6On8K99BQA6UraiJzjRIBk0SB5j8yPWJmkwI3+zeNYY7UoCS6DnSyDMuO3Z0JmoAsrSdTw8QPL7c": "utter_pencegahan_stunting",
+    "eJytkdENwjAMRFfJAEyQVRCy3NYUq9SJYgc+ou5OVCh/KBXqn0+6Oz/Z57KcXImJHoC9cRDvynsAwZm8+4g7q5FUb1ZK1cNSpXmnGHFpVGQzSrA6/8o3EFAnUMtiLCN0rAgDhw6Nd3JtUeMBp2/26DWGT0wTCrBcA/Q04u3AHY0TVQCed/4pkqx0FXVD+V14eQFvr94n": "action_listen",
+    "eJydjkEKgDAMBL/SB/iCfkUkBAklqLEkqZfSv1vUe8HbDswuO9c2hZqVLsDV+ZQY6htA8KAYPtjZnKS7xUi7w9LRYzDM2AYTxZ0UHvNXf3ABbYNMkkidUcC8iLOk1pYbYmtUpA==": "utter_pengertian_stunting",
+    "eJydjksKgDAMRK/SA3iCXkUkBAklqLE0qZvSu1vUpVBxNwNvPmOpgysx0QE4G+/iXbkFCG7k3WNWViNpbFZKjWFp1rxTjFg7FdmMElzkr3znAuoCkSRQMkYBtSzGEr69egt+X5hOHTJ7Ng==": "action_listen",
+    "eJytkF0OwjAMg6/SA3CCXgWhyNvKiDrSqUnhYerdqfh7LUJ7iyV/seXjVg9uW3O4EUbjJN5tr4ME1+DdWyysFqR5i4bcPCxNmneKFbXzopiFTE/nX3ynAjSSWhFjmWlgBU2cBhj/2OuDGk+IX3bvGMMdOUKI5ZxoDDMuO2Z0JrK0INZ6egBRd751": "utter_pencegahan_stunting",
+    "eJytkE0OgjAQha/SA3gCrmLM5AEjTopT0k510XB3GxR3BmLYzUvez5c5l/nkyhT5QehMgjauvA9S3LlxHzFKMtbqzYlj9YhWaY1LmDBvVGQzjrQ4/8pvICB5SpbVRAdqJYF6CS1MdnKtUZMe/ps9esbwRPRQEr0G6njA7cCNjRdZGOH3cU6sC1wlXUl+9l1esqrdWQ==": "action_listen",
+    "eJydjkEKgDAMBL/SB/iCfkUkhBJqUWNpUi8lf7eo94K3HZhddm42uZYLXYBB08netTcA40HefbAnUeLuVqHSncQd1TvBjDaYqKpU4DF/9QcXUDbIxIEirsggWlkTR7PlBmAlVIE=": "utter_pencegahan_stunting",
+    "eJydjk0KgCAQha/iATqBV4kYhhhMqkmcsY1496RaBkq79+B7P2Mug8kh0gk4qz/YmvwIYNzJmtdsXpS4skkoVsZztWqNYMDSqEiqFOEmf+UbF1BWCMQzOVyQQTSxenZ9r76C/QvTBQNfes0=": "action_listen"
+  }
+}

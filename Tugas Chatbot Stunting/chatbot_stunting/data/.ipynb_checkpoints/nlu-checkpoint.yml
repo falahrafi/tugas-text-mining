@@ -1,0 +1,157 @@
+version: "3.1"
+
+nlu:
+- intent: sapa
+  examples: |
+    - hai
+    - hei
+    - hay
+    - hi
+    - halo
+    - hello
+    - permisi
+    - assalamualaikum
+    - selamat pagi
+    - selamat malam
+    - selamat siang
+    
+- intent: ask_pengertian_stunting
+  examples: |
+    - apa itu stunting?
+    - apa pengertian stunting?
+    - apa maksud dari stunting?
+    - saya ingin tahu tentang stunting
+    - jelaskan stunting
+    - stunting adalah
+    - stunting apa ya
+    - stunting apaan
+    - beritahu saya tentang stunting
+    
+- intent: ask_pencegahan_stunting
+  examples: |
+    - bagaimana cara mencegah stunting?
+    - cara mencegah stunting
+    - cegah stunting
+    - langkah pencegahan stunting
+    - upaya pencegahan stunting
+    - apa pencegahan stunting?
+    - apa yang harus dilakukan untuk mencegah stunting?
+    - hal yang mencegah stunting
+    
+- intent: ask_pengobatan_stunting
+  examples: |
+    - apakah stunting bisa diobati
+    - apakah stunting bisa sembuh
+    - apa obat stunting
+    - bagaimana cara mengobati stunting
+    - bagaimana cara mengatasi stunting
+    - bagaimana cara menyembuhkan stunting
+    - obat stunting
+    
+- intent: ask_nutrisi_cegah_stunting
+  examples: |
+    - apa saja nutrisi yang dapat mencegah stunting?
+    - seperti apa anjuran nutrisi anak supaya tidak stunting?
+    - apa aturan nutrisi yang baik untuk mencegah stunting?
+    - berikan anjuran nutrisi yang baik untuk anak
+    - anjuran nutrisi
+    - nutrisi untuk mencegah stunting
+    - nutrisi yang baik
+    - bagaimana pemberian nutrisi yang tepat?
+
+- intent: ask_vitamin_cegah_stunting
+  examples: |
+    - apa vitamin dapat mencegah stunting?
+    - apa vitamin efektif dalam pencegahan stunting?
+    - apa saja vitamin yang dapat mencegah stunting?
+    - vitamin pencegah stunting
+    - vitamin untuk mengatasi stunting
+    - vitamin untuk mengobati stunting
+    - berikan resep vitamin untuk mencegah stunting
+    - apa suplemen dapat mencegah stunting?
+    - apa suplemen efektif dalam pencegahan stunting?
+    - apa saja suplemen yang dapat mencegah stunting?
+    - suplemen pencegah stunting
+    - suplemen untuk mengatasi stunting
+    - suplemen untuk mengobati stunting
+    - berikan resep suplemen untuk mencegah stunting    
+    
+- intent: ask_sufor_mpasi
+  examples: |
+    - Perlukah menambah sufor saat MPASI jika kenaikan berat badan melambat?
+    - Perlukah menambah sufor
+    - Perlukah sufor
+    - Apakah perlu sufor
+    - Apakah perlu tambah sufor 
+    - Apakah perlu menambah sufor 
+    - Apakah perlu tambah sufor saat MPASI
+    - Menambah sufor saat MPASI
+    - Tambah sufor saat MPASI
+    
+- intent: ask_pertumbuhan_bayi_prematur
+  examples: |
+    - Bagaimana menilai pertumbuhan dan perkembangan bayi prematur?
+    - Bagaimana cara menilai pertumbuhan dan perkembangan bayi prematur?
+    - Apakah ada cara untuk menilai pertumbuhan dan perkembangan bayi prematur?
+    - Apa saja cara untuk menilai pertumbuhan dan perkembangan bayi prematur?
+    - Bagaimana mengukur pertumbuhan dan perkembangan bayi prematur?
+    - Bagaimana mengetahui apakah pertumbuhan dan perkembangan bayi prematur sesuai dengan usia?
+    - Bagaimana menilai kemajuan pertumbuhan dan perkembangan bayi prematur dari waktu ke waktu?
+    - Pertumbuhan dan perkembangan bayi prematur
+    - Pertumbuhan bayi prematur
+    - Perkembangan bayi prematur
+    
+- intent: ask_defisiensi_besi
+  examples: |
+    - Bagaimana cara mengatasi defisiensi besi pada ibu hamil?
+    - Apakah ada cara untuk meningkatkan kadar besi pada ibu hamil?
+    - Bagaimana cara mencegah defisiensi besi pada ibu hamil?
+    - Bagaimana cara memberikan asupan besi yang adekuat pada ibu hamil?
+    - Bagaimana cara mengatasi anemia pada ibu hamil akibat defisiensi besi?
+    - Apakah ada cara untuk mencegah defisiensi besi pada ibu hamil selama masa kehamilan?
+    - Defisiensi besi pada ibu hamil
+    - Ibu hamil defisiensi besi, bagaimana mengatasinya?
+    
+- intent: terima
+  examples: |
+    - ya
+    - iya
+    - yap
+    - yah
+    - boleh
+    - ya saya mau
+    - ya saya ingin tahu
+    
+- intent: tolak
+  examples: |
+    - tdk
+    - tidak
+    - tidak mau
+    - maaf tidak
+    - tidak saya tidak mau
+    - tidak saya tidak ingin tahu
+    - tidak terima kasih
+    - tidak saya tidak tertarik
+
+- intent: goodbye
+  examples: |
+    - sampai jumpa
+    - dadah
+    - selamat tinggal
+    - saya ingin berhenti bicara
+    - berhenti bicara
+    - selesai
+    - akhiri chat
+    - bye
+    - bye bye
+    
+- intent: bot_challenge
+  examples: |
+    - apakah kamu bot?
+    - apakah kamu manusia?
+    - siapa kau?
+    - siapa kamu?
+    - dengan siapa saya bicara?
+    - apakah saya bicara dengan manusia?
+    - apakah saya bicara dengan bot?
+    

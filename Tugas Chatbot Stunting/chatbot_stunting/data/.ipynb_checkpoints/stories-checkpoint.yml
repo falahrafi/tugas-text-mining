@@ -1,0 +1,67 @@
+version: "3.1"
+
+stories:
+
+- story: pengertian stunting
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+  - intent: ask_pengertian_stunting
+  - action: utter_pengertian_stunting
+  
+- story: pencegahan stunting
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+  - intent: ask_pencegahan_stunting
+  - action: utter_pencegahan_stunting
+  
+- story: nutrisi untuk mencegah stunting
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+  - or:
+    - intent: ask_nutrisi_cegah_stunting
+    - intent: ask_vitamin_cegah_stunting
+  - action: utter_nutrisi_cegah_stunting
+  
+- story: perlukah sufor mpasi
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+  - intent: ask_sufor_mpasi
+  - action: utter_sufor_mpasi
+  
+- story: pertumbuhan perkembangan bayi prematur
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+  - intent: ask_pertumbuhan_bayi_prematur
+  - action: utter_pertumbuhan_bayi_prematur
+  
+- story: defisiensi besi pada ibu hamil
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+  - intent: ask_defisiensi_besi
+  - action: utter_defisiensi_besi
+
+- story: pengobatan stunting dan pencegahan
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+  - intent: ask_pengobatan_stunting
+  - action: utter_pengobatan_stunting
+  - action: utter_tawarkan_info_cegah
+  - intent: terima
+  - action: utter_pencegahan_stunting
+
+- story: pengobatan stunting
+  steps:
+  - intent: sapa
+  - action: utter_sapa
+  - intent: ask_pengobatan_stunting
+  - action: utter_pengobatan_stunting
+  - action: utter_tawarkan_info_cegah
+  - intent: tolak
+  - action: utter_goodbye

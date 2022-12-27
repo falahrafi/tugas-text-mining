@@ -1,0 +1,55 @@
+version: "3.1"
+
+intents:
+  - sapa
+  - ask_pengertian_stunting
+  - ask_pencegahan_stunting
+  - ask_pengobatan_stunting
+  - ask_nutrisi_cegah_stunting
+  - ask_vitamin_cegah_stunting
+  - ask_sufor_mpasi
+  - ask_pertumbuhan_bayi_prematur
+  - ask_defisiensi_besi
+  - terima
+  - tolak
+  - goodbye
+  - bot_challenge
+
+responses:
+  utter_sapa:
+  - text: "Halo, Selamat datang di Stunting ChatBot!\nChatbot ini dibuat oleh:\n- Muhammad Falah Abdurrafi (20.01.53.0033)\n.\nInformasi apa yang ingin anda ketahui tentang stunting?"
+  
+  utter_pengertian_stunting:
+  - text: "Stunting adalah keadaan pendek yang khas disebabkan oleh gangguan nutrisi, infeksi berulang yang tidak tertangani dalam jangka waktu yang lama.\n- Illustrasi Stunting (Diambil dari siswapedia.com)"
+    image: "https://www.siswapedia.com/wp-content/uploads/2019/10/Penyebab-Ciri-Ciri-Dan-Dampak-Stunting.png"
+    
+  utter_pencegahan_stunting:
+  - text: "Berikut ini adalah beberapa hal yang dapat dilakukan untuk mencegah stunting :\na) Mempersiapkan remaja putri sebelum menempuh kehamilan\nb) Perencanaan keluarga dan kehamilan yang matang\nc) Menjaga kehamilan yang sehat\nd) Nutrisi saat hamil dan menyusui\ne) manajemen laktasi yang baik\nf) manajemen MPASI yang adekuat\ng) mencegah penyakit dengan imunisasi yang LENGKAP\nh) Pemantauan pertumbuhan anak secara terus-menerus"
+  
+  utter_pengobatan_stunting:
+  - text: "Ada dua masalah akibat stunting yaitu pertumbuhan otak dan tinggi badan.\n- Pertumbuhan otak sangat pesat terjadi pada 2 tahun pertama sehingga setelah usia 2 tahun, tidak bisa diperbaiki.\n- Tinggi badan masih bisa diperbaiki dengan berharap pada fase pubertas.\nOleh karena itu JANGAN MENGOBATI stunting tapi lakukanlah PENCEGAHAN. Periode emas yang masih bisa memperbaiki stunting adalah sebelum usia 2 tahun, dan hasilnya pun tidak bisa kembali sempurna, artinya bisa diperbaiki namun optimal."
+        
+  utter_tawarkan_info_cegah:
+  - text: ".\nApakah anda ingin tahu bagaimana cara mencegah stunting?"
+  
+  utter_nutrisi_cegah_stunting:
+  - text: "Stunting dapat dicegah dengan pemberian nutrisi yang tepat. Nutrisi pembangun tumbuh adalah makronutrien yang terdiri dari Karbohidrat, protein dan lemak.\n- PERLU DIINGAT bahwa tidak ada vitamin dan suplemen pencegah stunting. Hal ini karena vitamin dan mineral merupakan mikronutrien yang merupakan zat pendukung, bukan pembangun. Vitamin dan mineral terbaik berasal dari makanan, bukan dari apotek."
+  
+  utter_sufor_mpasi:
+  - text: "Saat usia 6-12 bulan, ada dua manajemen nutrisi yang harus dievaluasi yaitu:\n- Apakah ASI cukup?\n- Apakah kuantitas dan kualitas MPASI cukup?\nPemberian sufor hanya dilakukan jika ASI tidak cukup.\nPemberian ASI pada masa MPASI tetap dominan mencapai 120 ml x Berat badan perharinya."
+        
+  utter_pertumbuhan_bayi_prematur:
+  - text: "Pertumbuhan bayi prematur dipantau menggunakan kurva Fenton sampai usia koreksi 10 minggu, kemudian pindah ke kurva WHO.\nSedangkan perkembangan (verbal, motoric halus dan kasar) menggunakan usia koreksi sampai usia 2 tahun, lalu dianggap sama dengan anak lain yang seusianya."
+    
+  utter_defisiensi_besi:
+  - text: "Pencegahan anemia pada ibu hamil harus dilakukan sebelum hamil.\nJika anemia sudah terjadi saat hamil maka kondisi ini sudah terlambat, sehingga harus diatasi segera, pada umumnya dokter kandungan akan memberikan suplemen besi tergantung pada derajat keparahan defisiensinya (dapat berupa infus zat besi, suplemen minum).\nNamun perlu diingat, penyebab utama defisiensi besi adalah asupan besi yang kurang sehingga wajib mengubah pola makan sehingga tidak terulang di saat fase menyusui."
+    
+  utter_goodbye:
+  - text: "Terima kasih sudah menggunakan layanan Stunting ChatBot.\nSampai jumpa!"
+
+  utter_iamabot:
+  - text: "Saya adalah Stunting ChatBot yang dibuat oleh Muhammad Falah Abdurrafi (20.01.53.0033)"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
